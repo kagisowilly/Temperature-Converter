@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body style="background-image: url(/images/bg-image.jpeg);  background-size: cover;
+background-repeat: no-repeat;">
+    <div class="container">
+        <div class="row text-center">
+            <div class="body text-white" style="text-align: center;">
+                <h1 class="heading">Temperature Converter</h1>
+                <select id="inputtype">
+                    <option class="select" value="celsius">Celsius</option>
+                </select>
+                <select id="resulttype">
+                    <option class="select" value="fahrenheit">fahrenheit</option>
+                    <!-- <option value="celsius">celsius</option> -->
+                </select>
+                <br>
+                <input type="text" class="inpt" id="celsius" placeholder="">
+
+                <span>=</span>
+                <input type="text" class="inpt" id="fahrenheit" placeholder="">
+                <br>
+
+
+                <!-- when is click this button it should clear..... -->
+                <button id="clear">clear</button>
+                <!-- when i click this button the program closes -->
+                <button id="exit" class="btnexit">Exit Program</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="Script/myscript.js"></script>
+</body>
+
+</html>
